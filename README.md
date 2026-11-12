@@ -12,7 +12,7 @@ Hilo: la caja de una tienda en línea que cobra con varios medios de pago (`Medi
 |---|---|---|
 | 1 · El contrato | Qué es una interfaz: lista de métodos sin código; mayúsculas, nombre y receptor | 2 correctas, 3 trampas |
 | 2 · La firma exacta | Mismos tipos de parámetros y de resultado; el nombre del parámetro no cuenta | 2 / 3 |
-| 3 · Sin «implements» | Implementación implícita; una interfaz no se crea con llaves; cumplir a medias no sirve | 3 / 3 |
+| 3 · Sin `implements` | Implementación implícita; una interfaz no se crea con llaves; cumplir a medias no sirve | 3 / 3 |
 | 4 · Muchas formas | Polimorfismo: slice de `MedioPago` y función que recibe la interfaz | 3 / 3 |
 | 5 · ¿Valor o puntero? | Receptor puntero: lo cumple `*Billetera`, no `Billetera`; puntero a interfaz | 3 / 3 |
 | 6 · Interfaces que Go ya trae | `fmt.Stringer` y `error` | 2 / 3 |
@@ -28,6 +28,10 @@ Todo el contenido va cifrado y en cadena: cada nivel se abre con la llave que de
 ## Controles
 
 Flechas o W A S D; en el celular, deslizar el dedo sobre el laberinto. P o Esc pausan.
+
+## Jugar
+
+Se juega en https://mariadsalazar.github.io/gopher-laberinto-interfaces/.
 
 ## Ejecutar en local
 
